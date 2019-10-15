@@ -45,6 +45,6 @@ viod fillArray(int arr[size]); // bad prototype
 2. 将指针本身设为常量，这样可以防止改变指针指向指向的位置
 ```cpp
 int age = 39;
-const int* pt = &age;
-
+const int* pt = &age; // 指向常量的指针pt，
+*pt += 1
 ```
