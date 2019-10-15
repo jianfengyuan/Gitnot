@@ -41,3 +41,5 @@ viod fillArray(int arr[size]); // bad prototype
 ```
 
 ### 7.3.5 指针与const
+1. 让指针指向一个常量对象
+2. 将指针本身设为常量，这样可以防止改变指针指向 的未
