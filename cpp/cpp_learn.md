@@ -18,5 +18,6 @@ viod n_char(char, int); // valided
 **在别的上下文中，也不能用int array[]来声明指针**
 ```cpp
 int sum_array(int array[], int n) = int sum_array(int* array, int n)
-arr[i] = *
+arr[i] == *(arr + i)
+&arr[i] == arr + i
 ```
