@@ -49,5 +49,8 @@ const int* pt = &age; // 指向常量的指针pt，pt指向一个const int
 *pt += 1;	// invalid
 cin >> *pt;	// invalid
 *pt = 20;	// invalid
-
+age = 20;	// valid
+/*
+* 这里声明支
+*/
 ```
