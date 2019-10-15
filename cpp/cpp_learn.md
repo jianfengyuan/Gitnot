@@ -72,5 +72,10 @@ const int* pt = pd	// *pt = 42 is an invalid operation
 ```
 假如涉及的是一级间接关系，则非const指针赋给const指针是可以的
 ```cpp
-
+const int ** pp2;
+int* p1;
+const int n = 13;
+pp2 = &p1; // Not allowed, but suppose it were
+*pp2 = &n;
+*p1 = 10;
 ```
