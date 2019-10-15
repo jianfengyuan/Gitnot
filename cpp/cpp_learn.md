@@ -9,4 +9,5 @@
 viod fifi(float a, float b) // valided
 viod fofo(float a, b) // not acceptable
 ```
+另外，原型中的变量名不必与定义中的变量名相同，而且可以省略
 
