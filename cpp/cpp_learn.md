@@ -65,3 +65,8 @@ const float g_moon = 1.63;
 float* pm = &g_moon;	// invalid
 ```
 指针指向指针的情况
+```cpp
+int age = 39;
+int* pd = &age;	// *pd = 41 is a vaild operation
+const int* pt = pd	//
+```
