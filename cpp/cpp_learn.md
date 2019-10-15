@@ -56,4 +56,8 @@ age = 20;	// valid
 * 不一定是常量，依然可以通过变量age来修改pt指向的值
 */
 ```
-还有两种情况，将const变量的地址
+还有两种情况，将const变量的地址赋给指向const的指针、将const的地址赋给常规指针。
+``` cpp
+const float g_earth = 9.80;
+const 
+```
