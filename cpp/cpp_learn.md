@@ -70,3 +70,4 @@ int age = 39;
 int* pd = &age;	// *pd = 41 is a vaild operation
 const int* pt = pd	// *pt = 42 is an invalid operation
 ```
+假如涉及的是
