@@ -14,7 +14,7 @@ viod fofo(float a, b) // not acceptable
 viod n_char(char, int); // valided
 ```
 ## 7.3 函数和数组
-在cpp仲，当且仅当用于函数头或者函数原型中，int* array和int array[]的含义才是相同的
+在cpp仲，当且仅当用于函数头或者函数原型中，int* array和int array[]的含义才是相同的，否则一个表示int变量的指针，另一个表示int数组的第一个元素的地址
 ```cpp
 int sum_array(int array[], int n) = int sum_array(int* array, int n)
 ```
