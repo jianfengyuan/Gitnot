@@ -51,6 +51,7 @@ cin >> *pt;	// invalid
 *pt = 20;	// invalid
 age = 20;	// valid
 /*
-* 这里声明支
+* 这里声明指出pt指向一个const int 说明pt 认为他指向的值是常量，
+因此不能通过来修改
 */
 ```
