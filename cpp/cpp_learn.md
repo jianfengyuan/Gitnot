@@ -14,6 +14,7 @@ viod fofo(float a, b) // not acceptable
 viod n_char(char, int); // valided
 ```
 ## 7.3 函数和数组
+在cpp仲，当且仅当用于函数头或者函数原型中，int* array和int array[]的含义才是相同的
 ```cpp
 int sum_array(int array[], int n) = int sum_array(int* array, int n)
 ```
