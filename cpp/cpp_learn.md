@@ -70,4 +70,7 @@ int age = 39;
 int* pd = &age;	// *pd = 41 is a vaild operation
 const int* pt = pd	// *pt = 42 is an invalid operation
 ```
-假如涉及的是
+假如涉及的是一级间接关系，则非const指针赋给const指针是可以的
+```cpp
+
+```
