@@ -13,3 +13,4 @@ viod fofo(float a, b) // not acceptable
 ```cpp
 viod n_char(char, int); // valided
 ```
+## 7.3 函数和数组
