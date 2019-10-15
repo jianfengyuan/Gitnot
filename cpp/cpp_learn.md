@@ -39,3 +39,5 @@ viod fillArray(int arr[], int size);	// prototype
 */
 viod fillArray(int arr[size]); // bad prototype
 ```
+
+### 7.3.5 指针与const
