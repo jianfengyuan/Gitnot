@@ -59,5 +59,8 @@ age = 20;	// valid
 还有两种情况，将const变量的地址赋给指向const的指针、将const的地址赋给常规指针。
 ``` cpp
 const float g_earth = 9.80;
-const 
+const float* pe = &g_earth;	// valid
+
+const float g_moon = 1.63;
+float* pm = &g_moon;	// invalid
 ```
