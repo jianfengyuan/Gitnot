@@ -35,7 +35,7 @@ arr+1 // 第二个元素的地址
 */
 viod fillArray(int arr[], int size);	// prototype
 /*
-* 不要试图
+* 不要试图使用方括号表示法来传递数组长度
 */
 viod fillArray(int arr[size]); // bad prototype
 ```
