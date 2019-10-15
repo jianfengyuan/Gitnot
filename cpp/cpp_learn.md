@@ -23,4 +23,5 @@ int sum_array(int array[], int n) = int sum_array(int* array, int n)
 arr[i] == *(arr + i)
 &arr[i] == arr + i
 ```
-### 7.3.2 将数组
+### 7.3.2 将数组作为参数意味着什么
+在函数调用中，
