@@ -6,5 +6,7 @@
 ## 7.2.1 多个参数
 如果函数的两个参数的类型相同，则必须分别指定每个参数的类型，不能将声明组合在一齐
 ```cpp
-viod fifi()
+viod fifi(float a, float b) // valided
+viod fofo(float a, b) // not acceptable
 ```
+
