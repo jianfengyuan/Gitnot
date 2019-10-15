@@ -20,11 +20,12 @@ viod n_char(char, int); // valided
 ```cpp
 int sum_array(int array[], int n) = int sum_array(int* array, int n)
 // 下面两个等式需要牢记
-arr[5] = {0, 1, 2, 3, 4}
+int arr[5] = {0, 1, 2, 3, 4}
 arr[i] == *(arr + i)
 &arr[i] == arr + i
-arr //是地址
-arr[]
+arr // 地址
+arr[0] // 第一个元素
+arr+1 // 第二个元素的地址
 ```
 ### 7.3.2 将数组作为参数意味着什么
 在函数调用中，传递常规变量时，函数将使用该变量的拷贝，但传递数组时，函数将使用原来的数组。这种区别不违反cpp按值传递的方法，因为函数仍然传递了一个值，这个值被赋给一个新的变量，不同的是这个值是一个地址，而不是数组的内容。
