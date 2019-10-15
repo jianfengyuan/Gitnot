@@ -64,3 +64,4 @@ const float* pe = &g_earth;	// valid
 const float g_moon = 1.63;
 float* pm = &g_moon;	// invalid
 ```
+指针指向指针的情况
