@@ -96,7 +96,8 @@ $$
 \frac{\partial L}{\partial X}\vert_{X=X^*} = 0  \\ 
 \lambda_j \ne 0\\
 \mu_k \ge 0 \\
-\mu_{k}g_k
+\mu_{k}g_{k}(X^{*}) = 0 \\
+h_j(X^{*)) = 0
 \end{aligned}
 
 $$
