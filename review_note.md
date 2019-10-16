@@ -73,8 +73,8 @@ $$
 两个分界线方程重写为
 $$
 \begin{cases}
-\mathbf{W}^{T}\mathbf{X} + b = 1 \\
-\mathbf{W}^{T}\mathbf{X} + b =-1
+\mathbf{W}^{T}\mathbf{X} + b = 1-\xi,\ y_i=1 \\
+\mathbf{W}^{T}\mathbf{X} + b =-1 + \xi,\ y_i = -1
 \end{cases}
 $$
 
