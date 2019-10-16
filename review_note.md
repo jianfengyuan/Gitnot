@@ -62,6 +62,12 @@ $$
 $$
 则对每个样本点都可以写作$y_i(\mathbf{w}^T\mathbf{x}+b) \ge 1$ 写作KKT条件形式为$1-y_i(\mathbf{w}^T\mathbf{x}+b) \le 0$
 因为$min\frac{1}{2}\mathbf{W}^T\mathbf{W}$是凸函数，因此可以引入拉格朗日乘子法和KKT条件进行二次规划求解
+写成拉格朗日函数的形式，分别对$\mathbf$
+
+
+
+
+
 ### 最优化问题
 常用工具: <font color="blue"> **拉格朗日乘子法**，**KKT条件**</font>
 **拉格朗日乘子法**
