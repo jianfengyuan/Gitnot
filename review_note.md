@@ -93,7 +93,9 @@ $$
 
 ## 激励函数 Activation Function
 
-## 正则化 （）
+## 正则化 （Regularization）
+### L1正则化
+### L2正则化
 
 
 ## 最优化问题
