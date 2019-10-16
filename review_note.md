@@ -16,3 +16,4 @@ $$ l=\sum_{i=0}^n \hat{y}^i-y^i $$
 
 ### 3.逻辑回归 logistics regression
 #### 3.1 目标
+通过y对x 的概率分别进行建模，得出
