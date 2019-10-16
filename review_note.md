@@ -90,6 +90,9 @@ $$
 $$
 Ent(D) = -\sum_{k=1}^{\vert y \vert}p_{k}log_{2}p_k
 $$
+$$
+(\frac{x}{y}) \left(\frac x y\right)
+$$
 #### 5.1.2 交叉熵
 #### 5.1.3 相对熵
 ### 5.2 ID3
