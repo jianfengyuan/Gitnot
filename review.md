@@ -34,4 +34,4 @@
 - [ ] content base
 - [ ] user base
 - [ ] LMF 隐语义模型
-- 
+- [ ] LDA 交替最小二乘
