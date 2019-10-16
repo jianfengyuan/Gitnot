@@ -67,7 +67,7 @@ $$
 此时，原问题变为其对偶问题，即从$min\frac{1}{2}\Vert\mathbf{W}\Vert^{2}$变成求$max\ \mathbf{w}(\alpha) \ st.\ \alpha_i \ge0 \quad \sum_{i=0}^{N}\alpha_iy_i=0$
 
 以上情况只针对数据完全线性可分的情况
-若数据包含噪声或者不可完全
+若数据包含噪声或者不可完全线性分割，则对每个样本引入<font color="red">松弛变量</font>，
 
 
 ### 最优化问题
