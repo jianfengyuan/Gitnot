@@ -66,7 +66,8 @@ $$
 将其代入拉格朗日函数$L(\mathbf{w},b,\alpha)$得到$\mathbf{w}$关于$\alpha$的函数
 此时，原问题变为其对偶问题，即从$min\frac{1}{2}\Vert\mathbf{W}\Vert^{2}$变成求$max\ \mathbf{w}(\alpha) \ st.\ \alpha_i \ge0 \quad \sum_{i=0}^{N}\alpha_iy_i=0$
 
-以上情况只针对数据完全线性可分的情况
+以上情况只针对数据完全线性可分的情况，称为硬间隔支持向量机
+#### 4.3 软间隔支持向量机
 若数据包含噪声或者不可完全线性分割，则对每个样本引入<font color="red">松弛变量</font>，称为软间隔支持向量机
 
 
