@@ -42,5 +42,6 @@ $$
 \mathbf{W}^{T}\mathbf{X} + b =-1
 \end{cases}
 $$
-则这两条直线到超平面的距离可以写成
-$ d_1 = \frac{1}{\|\mathbf{W}\|} $
+则这两条直线到超平面的距离可以写成  
+$d_1 = \frac{1}{\|\mathbf{W}\|}$  
+$d_2=\frac{-1}{\|\mathbf{W}\|}$
