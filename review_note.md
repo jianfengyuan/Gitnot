@@ -22,3 +22,6 @@ $$
 L(\mathbf{w}) = \prod_{i=1}^n p(\mathbf{x}^{(i)})^{y(i)} (1-p(\mathbf{x^{(i)}}))^{1-y^{(i)}}
 $$
 连成会造成数值下溢，因此对$p(\mathbf{x})$使用对数概率
+$$
+l(\mathbf{w}) = \sum_{i=1}^n log(p(\mathbf{x}^{(i)})){y(i)} + log((1-p(\mathbf{x^{(i)}})){1-y^{(i)}}
+$$
