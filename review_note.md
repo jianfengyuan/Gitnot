@@ -62,7 +62,7 @@ $$
 $$
 则对每个样本点都可以写作$y_i(\mathbf{w}^T\mathbf{x}+b) \ge 1$ 写作KKT条件形式为$1-y_i(\mathbf{w}^T\mathbf{x}+b) \le 0$
 因为$min\frac{1}{2}\mathbf{W}^T\mathbf{W}$是凸函数，因此可以引入拉格朗日乘子法和KKT条件进行二次规划求解
-写成拉格朗日函数的形式，分别对$\mathbf{w}$和$b$求偏导得出$w=\sum_{i=0}^N\alpha_iy_$
+写成拉格朗日函数的形式，分别对$\mathbf{w}$和$b$求偏导得出$w=\sum_{i=0}^N\alpha_iy_ix_i$
 
 
 
