@@ -89,9 +89,9 @@ $$
 则拉格朗日函数$F(X)$可以写成
 $$F(x,\lambda) = f(x) + \sum_{j=1}^{p}\lambda_{j}h_{j}(x)+\sum_{k=1}^{q}\mu_{k}h_{k}(x)$$
 要解上述问题，必须满足KKT条件
+
 **KKT条件**
 $$
-
 \begin{array}{c}
 \frac{\partial L}{\partial X}\vert_{X=X^*} = 0  \\ 
 \lambda_j \ne 0\\
