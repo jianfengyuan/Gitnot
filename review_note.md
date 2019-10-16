@@ -15,3 +15,4 @@ $$ l=\sum_{i=0}^n \hat{y}^i-y^i $$
 2. 梯度下降
 
 ### 3.逻辑回归 logistics regression
+#### 3.1 目标
