@@ -81,6 +81,6 @@ $$
 $$
 \begin{array}{ll}
 min\ f(x)\\
-st.\ h_k(x) = 0 \ k =1,2,3 ...,l \\ g
+st.\ h_k(x) = 0 \ k =1,2,3 ...,l \\ g_k(x) \le 0 \ k = 1,2,3 ....l
 \end{array}
 $$
