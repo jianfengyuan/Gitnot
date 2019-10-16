@@ -64,7 +64,7 @@ st.\ h_k(x) = 0 \ k =1,2,3 ...,l
 \end{array}
 $$
 则定义拉格朗日函数为$F(x)$
-$$F(x,\lambda) = f(x) + \sum_{k=1}^{l}\lambda_k$$
+$$F(x,\lambda) = f(x) + \sum_{k=1}^{l}\lambda_{k}h_{k}(x)$$
 
 最优化问题会碰到一下三种情况
 - 无约束条件
