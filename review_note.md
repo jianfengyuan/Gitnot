@@ -27,4 +27,3 @@ l(\mathbf{w}) = \sum_{i=1}^n log(p(\mathbf{x}^{(i)})){y(i)} + log(1-p(\mathbf{x^
 $$
 #### 3.3 求解
 没有闭式求解，只能使用梯度上升，最大化似然估计
-<font face="黑体" color="red">我是黑体字</font>
