@@ -44,11 +44,11 @@ $$
 $$
 则这两条直线到超平面的距离可以写成$d_1 = \frac{\lvert1\rvert}{\Vert\mathbf{W}\Vert}$  $d_2=\frac{\vert-1\vert}{\Vert\mathbf{W}\Vert}$
 ##### 4.1.3 间隔 margin
-&emsp;&emsp;上面两条直线的距离为$D=d_1+d_2=\frac{2}{\mathbf{\VertW\Vert}}$这被称为间隔（margin）$\gamma$
+&emsp;&emsp;上面两条直线的距离为$D=d_1+d_2=\frac{2}{\Vert\mathbf{W}\Vert}$这被称为间隔（margin）$\gamma$
 ##### 4.1.4 SVM 目标
 最大化margin，找出一个超平面，令不同数据尽可能清楚地分隔开
 $$
-max \gamma = max\frac{2}{\|w\|} @>>
+max\quad\gamma = max\frac{2}{\|w\|} \quad\longrightarrow\quad
 $$
 ##### 4.1.4 SVM分类
 硬间隔SVM，软间隔SVM，核函数SVM
