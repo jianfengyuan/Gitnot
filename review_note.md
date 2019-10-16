@@ -85,4 +85,5 @@ st.\ h_k(x) = 0 \ k =1,2,3 ...,l \\ g_k(x)  \le 0 \ k = 1,2,3 ....l
 \end{array}
 $$
 则拉格朗日函数$F(X)$可以写成
+$$F(x,\lambda) = f(x) + \sum_{j=1}^{l}\lambda_{k}h_{k}(x)+\sum_{k=1}^{l}\mu_{k}h_{k}(x)$$
 **KKT条件**
