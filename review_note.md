@@ -68,9 +68,9 @@ $$F(x,\lambda) = f(x) + \sum_{k=1}^{l}\lambda_{k}h_{k}(x)$$
 其中$\lambda_k$是各个约束条件的待定系数
 然后解各个变量的偏导数
 $$
-\frac{\partial{F(x)}}{\partial{x_i}} =0 \quad ... \quad \frac{\partial{F(x)}}{\partial{x_i}} =0
+\frac{\partial{F(x)}}{\partial{x_i}} =0 \quad ... \quad \frac{\partial{F(x)}}{\partial{\lambda_{k}}} =0
 $$
-
+如果有l个约束条件，就应该有l+1个方程，方程组的
 最优化问题会碰到一下三种情况
 - 无约束条件
 这是最简单的情况，解决方法通常是函数对变量求导，令求导函数等于0的点可能是极值点。将结果带回原函数进行验证即可。
