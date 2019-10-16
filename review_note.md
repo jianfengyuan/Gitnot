@@ -93,12 +93,12 @@ $$F(x,\lambda) = f(x) + \sum_{j=1}^{p}\lambda_{j}h_{j}(x)+\sum_{k=1}^{q}\mu_{k}h
 $$
 
 \begin{array}{c}
-\frac{\partial L}{\partial X}\vert_{X=X^*} &= 0  \\ 
-\lambda_j &\ne 0\\
-\mu_k &\ge 0 \\
-\mu_{k}g_{k}(X^{*}) &= 0 \\
-h_j(X^{*}) &= 0 \quad j = 1,2,3...l
-
+\frac{\partial L}{\partial X}\vert_{X=X^*} = 0  \\ 
+\lambda_j \ne 0\\
+\mu_k \ge 0 \\
+\mu_{k}g_{k}(X^{*}) = 0 \\
+h_j(X^{*}) = 0 \quad j = 1,2,3...l
+g_k(x)  \le 0 \ k = 1,2,3 ....l
 \end{array}
 
 $$
