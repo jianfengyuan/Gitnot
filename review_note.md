@@ -17,7 +17,8 @@ $$ l=\sum_{i=0}^n \hat{y}^i-y^i $$
 
 ## 3.逻辑回归 logistics regression
 ### 3.1 目标
-&emsp;&emsp;通过y对x 的概率分别进行建模，结果为该判断为该标记的概率，常用在分类任务#### 3.2 损失函数 
+&emsp;&emsp;通过y对x 的概率分别进行建模，结果为该判断为该标记的概率，常用在分类任务
+### 3.2 损失函数 
 $$ 
 L(\mathbf{w}) = \prod_{i=1}^n p(\mathbf{x}^{(i)})^{y(i)} (1-p(\mathbf{x^{(i)}}))^{1-y^{(i)}}
 $$
@@ -28,9 +29,9 @@ $$
 #### 3.3 求解
 &emsp;&emsp;没有闭式求解，只能使用<font color="red">梯度上升</font>，==最大化似然估计==
 
-### 4. 支持向量机 SVM
-#### 4.1 基础术语
-##### 4.1.1 划分超平面
+## 4. 支持向量机 SVM
+### 4.1 基础术语
+#### 4.1.1 划分超平面
 划分超平面是根据两个类的最靠近划分超平面的样本决定的，这两个样本到划分超平面的的距离分别为$d1$和$d2$
 ##### 4.1.2 平面之间的距离和平行线之间的距离
 两平面之间的距离可以看做两条直线的距离  
@@ -42,16 +43,16 @@ $$
 \end{cases}
 $$
 则这两条直线到超平面的距离可以写成$d_1 = \frac{\lvert1\rvert}{\Vert\mathbf{W}\Vert}$  $d_2=\frac{\vert-1\vert}{\Vert\mathbf{W}\Vert}$
-##### 4.1.3 间隔 margin
+#### 4.1.3 间隔 margin
 &emsp;&emsp;上面两条直线的距离为$D=d_1+d_2=\frac{2}{\Vert\mathbf{W}\Vert}$这被称为间隔（margin）$\gamma$
-##### 4.1.4 SVM 目标
+#### 4.1.4 SVM 目标
 最大化margin，找出一个超平面，令不同数据尽可能清楚地分隔开
 $$
 max\ {\gamma} = max\frac{2}{\|w\|} \ = \ min\frac{1}{2}\Vert\mathbf{W}\Vert \ \longrightarrow \ min\frac{1}{2}\Vert\mathbf{W}\Vert^{2}\ = \ min\frac{1}{2}\mathbf{W}^T\mathbf{W}
 $$
-##### 4.1.5 SVM分类
+#### 4.1.5 SVM分类
 硬间隔SVM，软间隔SVM，核函数SVM
-#### 4.2 硬间隔支持向量机求解
+### 4.2 硬间隔支持向量机求解
 假设两种不同点的方程有
 $$
 \begin{cases}
@@ -66,7 +67,7 @@ $$
 此时，原问题变为其对偶问题，即从$min\frac{1}{2}\Vert\mathbf{W}\Vert^{2}$变成求$max\ \mathbf{w}(\alpha) \ st.\ \alpha_i \ge0 \quad \sum_{i=0}^{N}\alpha_iy_i=0$
 
 以上情况只针对数据完全线性可分的情况，称为硬间隔支持向量机
-#### 4.3 软间隔支持向量机
+### 4.3 软间隔支持向量机
 若数据包含噪声或者不可完全线性分割，则对每个样本引入<font color="red">松弛变量&ensp;$\xi
 \ge 0$</font>，称为软间隔支持向量机
 两个分界线方程重写为
@@ -76,9 +77,10 @@ $$
 \mathbf{W}^{T}\mathbf{X} + b =-1 + \xi,\ y_i = -1
 \end{cases}
 $$
-### 5.决策树
+## 5.决策树
+### 5.1
 
-### 最优化问题
+## 最优化问题
 常用工具: <font color="blue"> **拉格朗日乘子法**，**KKT条件**</font>
 **拉格朗日乘子法**
 设目标函数为$f(x)$，约束条件为$h_k(x)$
