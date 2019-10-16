@@ -1,5 +1,5 @@
 机器学习
-- [ ] 刺激
+- [ ] activation function
 - [ ] LR
 - [ ] SVM 推导
 - [ ] 决策树
