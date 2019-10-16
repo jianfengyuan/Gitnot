@@ -14,4 +14,4 @@ $$ l=\sum_{i=0}^n \hat{y}^i-y^i $$
 分别对w和b求偏导，令两个偏导公式为0，分别求出w和b的值
 2. 梯度下降
 
-### 3.
+### 3.逻辑回归 logistics regression
