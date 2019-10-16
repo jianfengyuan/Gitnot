@@ -52,7 +52,7 @@ max\ {\gamma} = max\frac{2}{\|w\|} \ = \ min\frac{1}{2}\Vert\mathbf{W}\Vert \ \l
 $$
 ##### 4.1.4 SVM分类
 硬间隔SVM，软间隔SVM，核函数SVM
-##### 4.2 求解
+#### 4.2 硬间隔支持向量机求解
 假设两种不同点的方程有
 $$
 \begin{cases}
