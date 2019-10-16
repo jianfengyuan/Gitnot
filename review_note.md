@@ -115,7 +115,7 @@ $v$是属性$A$的某个值，S是父节点子集，$S_v$是父节点子集下$A
 $$
 \begin{aligned}
 Gainratio(S,A) = \frac{Gain(S,A)}{IV(A)} \\
-IV()
+IV(A) = -\sum\frac{\vert S_V\vert}{\vert S\vert}
 \end{aligned}
 $$
 #### 5.3.2 特点
