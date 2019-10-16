@@ -90,4 +90,6 @@ $$
 $$F(x,\lambda) = f(x) + \sum_{j=1}^{p}\lambda_{j}h_{j}(x)+\sum_{k=1}^{q}\mu_{k}h_{k}(x)$$
 要解上述问题，必须满足KKT条件
 **KKT条件**
-
+$$
+\frac{\partial L}{\partial X}
+$$
