@@ -83,7 +83,7 @@ $$F(x,\lambda) = f(x) + \sum_{k=1}^{l}\lambda_{k}h_{k}(x)$$
 $$
 \begin{array}{c}
 min\ f(x)\\
-st.\ h_k(x) = 0 \ k =1,2,3 ...,l \\ g_k(x)  \le 0 \ k = 1,2,3 ....l \text{}
+st.\ h_k(x) = 0 \ k =1,2,3 ...,l \\ g_k(x)  \le 0 \ k = 1,2,3 ....l \<font color="red"> </font>
 \end{array}
 $$
 则拉格朗日函数$F(X)$可以写成
