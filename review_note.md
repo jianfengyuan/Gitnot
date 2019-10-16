@@ -129,7 +129,7 @@ $IV(A)$会随着$A$的取值个数增多而增多，因此使用信息增益率�
 基尼指数：反映数据集的纯度
 $$
 \begin{aligned}
-Gini(D^v)=\sum_{k=1}^{y}\sum_{k' \ne k}p_kp_{k'} = 1- \sum_{k=1}^{\vert y}
+Gini(D^v)=\sum_{k=1}^{\vert y\vert}\sum_{k' \ne k}p_kp_{k'} = 1- \sum_{k=1}^{\vert y\vert}p_k^2 \\
 Gini-index(D, a) = \sum_{v=1}^{V}Gini(D^v)
 \end{aligned}
 $$
