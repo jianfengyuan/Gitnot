@@ -27,3 +27,5 @@ l(\mathbf{w}) = \sum_{i=1}^n log(p(\mathbf{x}^{(i)})){y(i)} + log(1-p(\mathbf{x^
 $$
 #### 3.3 求解
 没有闭式求解，只能使用<font color="red">梯度上升</font>，==最大化似然估计==
+
+### 4. 支持向量机 SVM
