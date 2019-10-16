@@ -1,24 +1,23 @@
-## 机器学习
-### 1. 机器学习分类
+# 机器学习
+## 1. 机器学习分类
 监督学习：有标记
 &emsp;&emsp;判别模型：对于数据模型化，直接根据模型生成结果
 &emsp;&emsp;生成模型：根据已知属性生成概率
 非监督学习：无标记
 
-### 2. 线性回归 linear regression
-#### 2.1 目标
+## 2. 线性回归 linear regression
+### 2.1 目标
 &emsp;&emsp;找出一组w尽可能好地描述数据，即预测值与真实值尽可能小，最小化损失函数，常用作数值回归任务
 #### 2.2 损失函数
 $$ l=\sum_{i=0}^n \hat{y}^i-y^i $$
-#### 2.3 求解
+### 2.3 求解
 1. 闭合公式求解
 分别对w和b求偏导，令两个偏导公式为0，分别求出w和b的值
 2. 梯度下降
 
-### 3.逻辑回归 logistics regression
-#### 3.1 目标
-&emsp;&emsp;通过y对x 的概率分别进行建模，结果为该判断为该标记的概率，常用在分类任务
-#### 3.2 损失函数 
+## 3.逻辑回归 logistics regression
+### 3.1 目标
+&emsp;&emsp;通过y对x 的概率分别进行建模，结果为该判断为该标记的概率，常用在分类任务#### 3.2 损失函数 
 $$ 
 L(\mathbf{w}) = \prod_{i=1}^n p(\mathbf{x}^{(i)})^{y(i)} (1-p(\mathbf{x^{(i)}}))^{1-y^{(i)}}
 $$
@@ -50,7 +49,7 @@ $$
 $$
 max\ {\gamma} = max\frac{2}{\|w\|} \ = \ min\frac{1}{2}\Vert\mathbf{W}\Vert \ \longrightarrow \ min\frac{1}{2}\Vert\mathbf{W}\Vert^{2}\ = \ min\frac{1}{2}\mathbf{W}^T\mathbf{W}
 $$
-##### 4.1.4 SVM分类
+##### 4.1.5 SVM分类
 硬间隔SVM，软间隔SVM，核函数SVM
 #### 4.2 硬间隔支持向量机求解
 假设两种不同点的方程有
@@ -77,6 +76,7 @@ $$
 \mathbf{W}^{T}\mathbf{X} + b =-1 + \xi,\ y_i = -1
 \end{cases}
 $$
+### 5.决策树
 
 ### 最优化问题
 常用工具: <font color="blue"> **拉格朗日乘子法**，**KKT条件**</font>
