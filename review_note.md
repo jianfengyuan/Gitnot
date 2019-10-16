@@ -62,12 +62,7 @@ $$
 min\ f(x)\\
 st.
 \end{array}
-$$
-$$\begin{align}
-a &= b + c \tag{3}\label{eq3} \\
-x &= yz \tag{4}\label{eq4}\\
-l &= m - n \tag{5}\label{eq5}
-\end{align}$$
+
 最优化问题会碰到一下三种情况
 - 无约束条件
 这是最简单的情况，解决方法通常是函数对变量求导，令求导函数等于0的点可能是极值点。将结果带回原函数进行验证即可。
