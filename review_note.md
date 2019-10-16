@@ -62,6 +62,8 @@ $$
 min\ f(x)\\
 st.
 \end{array}
+$$
+$$ \begin{aligned} A & = B \\ & = C \end{aligned} $$
 
 最优化问题会碰到一下三种情况
 - 无约束条件
