@@ -113,7 +113,10 @@ $v$是属性$A$的某个值，S是父节点子集，$S_v$是父节点子集下$A
 #### 5.3.1 启发式
 信息增益率
 $$
-Gainratio(S,A) = Gain
+\begin{aligned}
+Gainratio(S,A) = \frac{Gain(S,A)}{IV(A)} \\
+IV()
+\end{aligned}
 $$
 #### 5.3.2 特点
 ### 5.4 CART
