@@ -38,6 +38,9 @@ $$
 假设两个分界线的方程为
 $$
 \begin{cases}
-\mathbf{W}^{T}\mathbf{X} +b = 1
+\mathbf{W}^{T}\mathbf{X} + b = 1 \\
+\mathbf{W}^{T}\mathbf{X} + b =-1
 \end{cases}
+$$
+则这两条直线到超平面的距离可以写成
 $$
