@@ -1,7 +1,7 @@
 机器学习
 - [ ] activation function
-- [ ] LR
-- [ ] SVM 推导
+- [x] LR
+- [x] SVM 推导
 - [ ] 决策树
 - [ ] 聚类
 
