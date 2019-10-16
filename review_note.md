@@ -92,7 +92,7 @@ $$F(x,\lambda) = f(x) + \sum_{j=1}^{p}\lambda_{j}h_{j}(x)+\sum_{k=1}^{q}\mu_{k}h
 **KKT条件**
 $$
 \begin{aligned}
-\frac{\partial L}{\partial X}\vert_{X=X^*} = 0  
+\frac{\partial L}{\partial X}\vert_{X=X^*} = 0 \tag{1}\lable{} \\
 \lambda_j \ne 0
-\end{aligned)
+\end{aligned}
 $$
