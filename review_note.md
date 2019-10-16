@@ -38,6 +38,6 @@ $$
 假设两个分界线的方程为
 $$
 \begin{cases}
-\
+\mathbf{W}^{T}\mathbf{X} +b = 1
 \end{cases}
 $$
