@@ -124,7 +124,7 @@ $$F(x,\lambda) = f(x) + \sum_{k=1}^{l}\lambda_{k}h_{k}(x)$$
 其中$\lambda_k$是各个约束条件的待定系数
 然后解各个变量的偏导数
 $$
-\frac{\partial{F(x)}}{\partial{x_i}} =0 \quad ... \quad \frac{\partial{F(x)}}{\partial{\lambda_{k}}} =0
+\frac{\partial{F(x)}} {\partial{x_i}} = 0 \quad ... \quad \frac{\partial{F(x)}} {\partial{\lambda_{k}}} =0
 $$
 如果有$l$个约束条件，就应该有$l+1$个方程，方程组的解就是可能的最优化值
 最优化问题会碰到一下三种情况
