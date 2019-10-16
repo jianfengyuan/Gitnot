@@ -24,7 +24,7 @@ L(\mathbf{w}) = \prod_{i=1}^n p(\mathbf{x}^{(i)})^{y(i)} (1-p(\mathbf{x^{(i)}}))
 $$
 连成会造成数值下溢，因此对$p(\mathbf{x})$使用对数概率
 $$
-l(\mathbf{w}) = \sum_{i=1}^n log(p(\mathbf{x}^{(i)})){y(i)} + log(1-p(\mathbf{x^{(i)}})({1-y^{(i)}})
+l(\mathbf{w}) = \sum_{i=1}^n log(p(\mathbf{x}^{(i)})){y(i)} + log(1-p(\mathbf{x^{(i)}}))({1-y^{(i)}})
 $$
 #### 3.3 求解
 &emsp;&emsp;没有闭式求解，只能使用<font color="red">梯度上升</font>，==最大化似然估计==
