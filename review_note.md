@@ -79,8 +79,8 @@ $$
 - 不等式约束条件
 设目标函数为$f(x)$,同时含有等式约束条件$h_k(x)$和不等式条件$g_k(x)$
 $$
-\begin{array}{lc}
+\begin{array}{c}
 min\ f(x)\\
-st.\ h_k(x) &=& 0 \ k =1,2,3 ...,l \\ g_k(x)  &\le& 0 \ k = 1,2,3 ....l
+st.\ h_k(x) = 0 \ k =1,2,3 ...,l \\ g_k(x)  \le 0 \ k = 1,2,3 ....l
 \end{array}
 $$
