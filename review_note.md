@@ -19,5 +19,5 @@ $$ l=\sum_{i=0}^n \hat{y}^i-y^i $$
 通过y对x 的概率分别进行建模，结果为该判断为该标记的概率，常用作类型判别任务
 #### 3.2 
 $$ 
-L(\mathbf{w}) = \prod_
+L(\mathbf{w}) = \prod_{i=1}^n p(x^{(\mathbf{i})})
 $$
