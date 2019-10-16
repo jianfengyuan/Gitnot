@@ -58,10 +58,10 @@ $$
 **拉格朗日乘子法**
 设目标函数为$f(x)$，约束条件为$h_k(x)$
 $$
-\begin{array}
+\begin{array}{}
 min\ f(x)\\
 st.
-\end{alignat}
+\end{array}
 $$
 
 最优化问题会碰到一下三种情况
