@@ -58,10 +58,10 @@ $$
 **拉格朗日乘子法**
 设目标函数为$f(x)$，约束条件为$h_k(x)$
 $$
-\begin{aligned}
+\begin{array}{ll}
 min\ f(x)\\
 st.\ h_k(x) = 0 \ k =1,2,3 ...,l
-\end{aligned}
+\end{array}
 $$
 
 
