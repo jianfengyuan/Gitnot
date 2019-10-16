@@ -56,10 +56,11 @@ $$
 假设两种不同点的方程有
 $$
 \begin{cases}
-\mathbf{W}^{T}\mathbf{X} + b 、 1 \\
-\mathbf{W}^{T}\mathbf{X} + b =-1
+\mathbf{W}^{T}\mathbf{X} + b \ge 1 \\
+\mathbf{W}^{T}\mathbf{X} + b \le -1
 \end{cases}
 $$
+则对每个样本点都可以写作$y_i（$
 ### 最优化问题
 常用工具: <font color="blue"> **拉格朗日乘子法**，**KKT条件**</font>
 **拉格朗日乘子法**
