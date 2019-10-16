@@ -53,7 +53,13 @@ $$
 ##### 4.1.4 SVM分类
 硬间隔SVM，软间隔SVM，核函数SVM
 ##### 4.2 求解
-
+假设两个分界线的方程为
+$$
+\begin{cases}
+\mathbf{W}^{T}\mathbf{X} + b = 1 \\
+\mathbf{W}^{T}\mathbf{X} + b =-1
+\end{cases}
+$$
 ### 最优化问题
 常用工具: <font color="blue"> **拉格朗日乘子法**，**KKT条件**</font>
 **拉格朗日乘子法**
