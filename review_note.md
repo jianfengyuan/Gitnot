@@ -104,8 +104,9 @@ $$
 #### 5.2.1 启发式
 信息增益
 $$
-Gain(S,A) = Ent(S) - \sum_{v\in}\frac{\vert S_v\vert}{\vert S \vert}Ent(S_{v})
+Gain(S,A) = Ent(S) - \sum_{v\in V(A)}\frac{\vert S_v\vert}{\vert S \vert}Ent(S_{v})
 $$
+$v$是属性A的某个值
 #### 5.2.2 特点
 ### 5.3 C4.5
 #### 5.3.1 启发式
