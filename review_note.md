@@ -58,18 +58,12 @@ $$
 **拉格朗日乘子法**
 设目标函数为$f(x)$，约束条件为$h_k(x)$
 $$
-\begin{array}{ll}
+\begin{array}
 min\ f(x)\\
+st.
+\end{alignat}
+$$
 
-\end{array}
-$$
-$$
-\begin{array}{ll}
-\text{maximize}  & c^T x \\
-\text{subject to}& d^T x = \alpha \\
-&0 \le x \le 1.
-\end{array}
-$$
 最优化问题会碰到一下三种情况
 - 无约束条件
 这是最简单的情况，解决方法通常是函数对变量求导，令求导函数等于0的点可能是极值点。将结果带回原函数进行验证即可。
