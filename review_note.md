@@ -106,7 +106,7 @@ $$
 $$
 Gain(S,A) = Ent(S) - \sum_{v\in V(A)}\frac{\vert S_v\vert}{\vert S \vert}Ent(S_{v})
 $$
-$v$是属性A的某个值
+$v$是属性A的某个值，S是父节点子集，$S_v$是父节点子集下A属性为$v$
 #### 5.2.2 特点
 ### 5.3 C4.5
 #### 5.3.1 启发式
