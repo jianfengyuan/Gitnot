@@ -48,7 +48,7 @@ $$
 ##### 4.1.4 SVM 目标
 最大化margin，找出一个超平面，令不同数据尽可能清楚地分隔开
 $$
-max\ {\gamma} = max\frac{2}{\|w\|} \ \longrightarrow \ min\frac{1}{2}\Vert\mathbf{W}\Vert \ \longrightarrow \ min\frac{1}{2}\Vert\mathbf{W}\Vert^{2}\ 
+max\ {\gamma} = max\frac{2}{\|w\|} \ \longrightarrow \ min\frac{1}{2}\Vert\mathbf{W}\Vert \ \longrightarrow \ min\frac{1}{2}\Vert\mathbf{W}\Vert^{2}\ = \ min\frac{1}{2}\mathbf{W}^T\mathbf{W}
 $$
 ##### 4.1.4 SVM分类
 硬间隔SVM，软间隔SVM，核函数SVM
