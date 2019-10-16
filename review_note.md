@@ -64,7 +64,7 @@ $$
 因为$min\frac{1}{2}\mathbf{W}^T\mathbf{W}$是凸函数，因此可以引入拉格朗日乘子法和KKT条件进行二次规划求解
 写成拉格朗日函数的形式，分别对$\mathbf{w}$和$b$求偏导得出$w=\sum_{i=0}^N\alpha_iy_ix_i$和$\sum_{i=0}^{N}\alpha_iy_i=0$
 将其代入拉格朗日函数$L(\mathbf{w},b,\alpha)$得到$\mathbf{w}$关于$\alpha$的函数
-此时，原问题变为其对偶问题，即从$min\frac{1}{2}\Vert\mathbf{W}\Vert^{2}$变成求
+此时，原问题变为其对偶问题，即从$min\frac{1}{2}\Vert\mathbf{W}\Vert^{2}$变成求$max\ \mathbf{w}(\alpha)$
 
 
 
