@@ -94,5 +94,5 @@ $$
 \begin{aligned}
 \frac{\partial L}{\partial X}\vert_{X=X^*} = 0  
 \lambda_j \ne 0
-\end(aligned)
+\end{aligned)
 $$
