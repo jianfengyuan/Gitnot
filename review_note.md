@@ -93,7 +93,14 @@ $$
 #### 5.1.2 交叉熵
 用来衡量在给定的真实分布下，使用非真实分布指定的策略消除系统的不确定性所需要付出努力的大小
 $$
-H(P,Q) = \sum_iP(i)log_a\frac{1}{Q(i)}
+\begin{array}{c}
+\frac{\partial L}{\partial X} \vert_{X=X^*} = 0  \quad (1)\\ 
+\lambda_j \ne 0 \quad (2)\\
+\mu_k \ge 0 \quad (3)\\
+\mu_{k}g_{k}(X^{*}) = 0  \quad (4)\\
+h_j(X^{*}) = 0 \quad j = 1,2,3...l \quad (5)\\
+g_k(x)  \le 0 \ k = 1,2,3 ...l \quad (6)
+\end{array}
 $$
 #### 5.1.3 相对熵
 ### 5.2 ID3
@@ -149,7 +156,7 @@ $$F(x,\lambda) = f(x) + \sum_{j=1}^{p}\lambda_{j}h_{j}(x)+\sum_{k=1}^{q}\mu_{k}h
 **KKT条件**
 $$
 \begin{array}{c}
-\frac{\partial L}{\partial X}\vert_{X=X^*} = 0  \quad (1)\\ 
+\frac{\partial L}{\partial X} \vert_{X=X^*} = 0  \quad (1)\\ 
 \lambda_j \ne 0 \quad (2)\\
 \mu_k \ge 0 \quad (3)\\
 \mu_{k}g_{k}(X^{*}) = 0  \quad (4)\\
