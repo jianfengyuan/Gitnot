@@ -90,6 +90,12 @@ $$
 ### 5.4 CART
 ### 5.5 GBDT
 
+
+## 激励函数 Activation Function
+
+##
+
+
 ## 最优化问题
 常用工具: <font color="blue"> **拉格朗日乘子法**，**KKT条件**</font>
 **拉格朗日乘子法**
