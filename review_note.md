@@ -53,10 +53,10 @@ $$
 ##### 4.1.4 SVM分类
 硬间隔SVM，软间隔SVM，核函数SVM
 ##### 4.2 求解
-假设两个分界线的方程为
+假设两种不同点的方程有
 $$
 \begin{cases}
-\mathbf{W}^{T}\mathbf{X} + b = 1 \\
+\mathbf{W}^{T}\mathbf{X} + b 、 1 \\
 \mathbf{W}^{T}\mathbf{X} + b =-1
 \end{cases}
 $$
