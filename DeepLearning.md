@@ -11,7 +11,7 @@ $\frac{\partial C}{\partial z}$称为backward pass项，从最后一层结果望
 以图片中的neural network为例子，设$L$为loss function的结果，刺激函数为sigmoid $\sigma(z)$,则sigmoid function的倒数$\sigma'(z)$也已知，且为常数
 根据链式法则
 $$
-\frac{\partial C}{\partial z_5}=\frac{\partial C}{\partial y_1}\frac{\partial y_1}{\partial z_5}
+\frac{\partial L}{\partial z_5}=\frac{\partial L}{\partial y_1}\frac{\partial y_1}{\partial z_5}
 $$
 
 ## 2. CNN
