@@ -16,7 +16,7 @@ $$
 其中$C=\frac{1}{2}(\hat y_1-y_1)^2 + \frac{1}{2}(\hat y_2-y_2)^2$，同理可求$\frac{\partial C}{\partial z_6}$
 若要求$\frac{\partial C}{\partial z_3}$，则可以看做一个反向的neural network
 $$
-
+\frac{\partial C}{\partial z_3}=(\frac{\partial C}{\partial z_5})*w +(\frac{\partial C}{\partial z_6}*w'
 $$
 ## 2. CNN
 ## 3. RNN
