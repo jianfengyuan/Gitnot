@@ -220,7 +220,7 @@ $$
 （1）计算目标函数关于参数的梯度$g_t = \nabla_{\theta}J(\theta)$
 （2）根据历史梯度计算一阶动量和二阶动量
 $m_t=\phi(g1,g2,g3,...,g_t)$
-$v_T\psi$
+$v_t = \psi(g1,g2,g3,...,g_t)$
 ### 1. SGD
 ### 2. RMS Prop
 ### 3. Momentum
