@@ -124,6 +124,10 @@ $IV(A)$会随着$A$的取值个数增多而增多，因此使用信息增益率�
 在现实中有可能出现$\vert S_v\vert = \vert S\vert$的现象，此时GainRatio的分子$IV(A)$会趋于0,增益率会变得非常大
 因此C4.5会先使用信息增益大于阈值的属性，再使用信息增益率选出最优分割属性。
 #### 5.3.4 如何处理连续数值数据
+(1) 对特征取值按升序排序
+(2) 两个特征取值之间的重点作为可能的分裂点，计算每个分裂点的<font color="red">信息增益</font>，使用信息增益最大的分割点作为连续属性的分割点
+(3) 用其信息增益率与其他属性的信息增益率比较，选取最优的分裂属性
+P.S 如果在属性的信息增益率进行比较时存在连续值和离散值，应该对连续值属性的信息增益率的信息增益部分进行修正，$Gainratio(S,A) = \frac{Gain(S,A)-log_2(\frac{\vert N-1\vert)}{\vert D\vert}}{IV(A)}$ 因为C4.5倾向选连续属性作为分裂点。
 ### 5.4 CART
 #### 5.4.1 启发式
 基尼指数：反映数据集的纯度
@@ -138,11 +142,27 @@ $$
 
 
 ## 激励函数 Activation Function
-
+### sigmoid(logistics function)
+$g(z) = \frac{1}{1+e^{-z}}$
+$g'(z) = g(z)(1-g(z))$
+### tanh
+$f(z) = tanh(z)$
+$f'(z) = 1 - (f(z))^2$
+### ReLu
+$g(x)=\begin{cases}
+1,\ x\ge 1 \\
+0,\ x \lt 0
+\end{cases}$
+sigmoid和tanh的优点是求导方便，缺点是在深度学习中容易发生梯度消失，导致神经元不再学习
+ReLu可以有效解决梯度消失问题，但是Relu不是平滑的函数，需要用特殊的方法求导
 ## 正则化 （Regularization）
+在一般的线性回归中，如果选取的特征过多，会导致过拟合，通过对损失函数加入正则化项，可以解决过拟合问题
 ### L1正则化
+$$
+J(\theta) = \frac{1}{2m} \sum_{i=1}^{m}(\hat y - y) + \lambda \sum_{j=1}^{n}\vert \theta_j \vert
+$$
 ### L2正则化
-
+$$ J(\theta) = \frac{1}{2m} \sum_{i=1}^{m}(\hat y - y) + \lambda \sum_{j=1}^{n} \theta_{j}^{2} $$ 
 
 ## 最优化问题
 常用工具: <font color="blue"> **拉格朗日乘子法**，**KKT条件**</font>
@@ -159,7 +179,7 @@ $$F(x,\lambda) = f(x) + \sum_{k=1}^{l}\lambda_{k}h_{k}(x)$$
 其中$\lambda_k$是各个约束条件的待定系数
 然后解各个变量的偏导数
 $$
-\frac{\partial{F(x)}} {\partial{x_i}} = 0 \quad ... \quad \frac{\partial{F(x)}} {\partial{\lambda_{k}}} =0
+\frac{ \partial F(x)}{ \partial x_i} = 0 \quad ... \quad \frac{ \partial F(x)}{ \partial \lambda_{k}} =0
 $$
 如果有$l$个约束条件，就应该有$l+1$个方程，方程组的解就是可能的最优化值
 最优化问题会碰到一下三种情况
@@ -193,3 +213,49 @@ g_k(x)  \le 0 \ k = 1,2,3 ...l \quad (6)
 \end{array}
 $$
 (1)是对拉格朗日函数取极值时候带来的一个必要条件，(2)是拉格朗日系数约束（同等式情况），(3)是不等式约束情况，(4)是互补松弛条件，(5)、(6)是原约束条件。
+
+# 强化学习
+## 1. Bellman 方程
+状态值函数$V_{\pi}(s)$可以评价当前状态的好坏，每个状态的值不仅由当前的状态决定，还由后面的状态决定，所以状态的累计奖励求期望就可以得出当前s的状态值函数$V(s)$
+$$
+\begin{aligned}
+V_\pi(s) = E(U(t)\vert S_t = s) \\
+V_\pi(s) = E[R_{t+1}+\gamma[R_{t+2}+\gamma[....]]\vert S_t=s] \\
+V_\pi(s) = E[R_{t+1}+V_\pi(s')\vert S_t=s]
+\end{aligned}
+$$
+## 2. off-policy和on-policy 
+更新价值所使用的方法是沿着既定的策略（on-policy）抑或是新策略（off-policy）
+## 3.Q-Learning
+更新方程
+$$
+Q(s,a) \leftarrow Q(s,a) + \alpha[r+\gamma max_{a'}Q(s',a')-Q(s,a)]
+$$
+## 4.Sasa
+
+# 推荐算法
+## 1. Content base
+## 2. User base
+## 3. 协同过滤
+## 4. 隐语义模型(LMF)
+
+# 深度学习
+## 1. Back propagation
+## 2. CNN
+## 3. RNN
+## 4. LSTM
+## 5. BN
+
+# 计算机视觉（CV）
+## RCNN
+## SPP net
+## Fast RCNN
+## Faster RCNN
+## YOLO v1
+## YOLO v2
+
+# 优化算法
+## 1. SGD
+## 2. RMS Prop
+## 3. Momentum
+## 4. Adam

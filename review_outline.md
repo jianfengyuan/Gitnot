@@ -1,8 +1,8 @@
 机器学习
-- [ ] activation function
+- [x] activation function
 - [x] LR
 - [x] SVM 推导
-- [ ] 决策树
+- [x] 决策树
 - [ ] 聚类
 
 优化算法
@@ -26,8 +26,8 @@
 - [ ] YOLO V2
 
 强化学习
-- [ ] 强化学习分类
-- [ ] Q-learning
+- [x] 强化学习分类
+- [x] Q-learning
 - [ ] sasa
 
 
