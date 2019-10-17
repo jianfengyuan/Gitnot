@@ -242,5 +242,5 @@ $\gamma$ --- 决定动量的影响
 ### 4. Adam
 Adam = RMSProp + Momentum
 $\beta1$关于momentum的超参数,$\beta2$关于RMSProp的超参数
-momentum的计算
-
+momentum部分的计算
+$m_t=\beta1 m_{t-1} + \eta g_t$
