@@ -244,4 +244,8 @@ Adam = RMSProp + Momentum
 $\beta_1$关于momentum的超参数,$\beta_2$关于RMSProp的超参数
 momentum部分的计算
 $m_t=\beta_1 m_{t-1} + (1-\beta_1) g_t$
+RMSProp部分计算
 $v_t = \beta_2v_{t-1}+(1-\beta_2)g_t^2$
+对momentum部分进行修正
+$$
+$\theta_t:=$
