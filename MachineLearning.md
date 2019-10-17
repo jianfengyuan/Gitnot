@@ -219,7 +219,8 @@ $$
 梯度下降是指，在给定待优化的模型参数$\theta \in \Bbb R^d$和目标函数$J(\theta)$后，算法通过沿梯度$\nabla_{\theta}J(\theta)$的相反方向更新$\theta$来最小化$J(\theta)$。学习率$\eta$决定了每一时刻的更新步长。对于每一个时刻$t$，我们可以用下述步骤描述梯度下降的流程：
 （1）计算目标函数关于参数的梯度$g_t = \nabla_{\theta}J(\theta)$
 （2）根据历史梯度计算一阶动量和二阶动量
-$m_t=$$$
+$m_t=\phi(g1,g2,g3,...,g_t)$
+$v_T\psi$
 ### 1. SGD
 ### 2. RMS Prop
 ### 3. Momentum
