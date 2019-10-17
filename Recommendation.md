@@ -53,5 +53,5 @@ $$
 Pearson相关系数是衡量两个数据集合之间的线性关系，考虑用户评分的偏差，忽略了用户共同评分的项目数。
 ### 4.4 jaccard相似度
 $$
-sim_{Jac}(u,v)=\vert \frac{I_{u} \cap I_{v}}{I_{u} \cap I_{v}}\vert
+sim_{Jac}(u,v)=\vert \frac{I_{u} \cap I_{v}}{I_{u} \cup I_{v}}\vert
 $$
