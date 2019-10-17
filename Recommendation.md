@@ -43,6 +43,7 @@ $r_{u,i}$和$r_{v,i}$---分别表示用户$u$和用户$v$的对项目i的评分
 $$
 sim_{cos}(u,v)= \frac{\sum_{i\in I_{u,v}}r_{u,i}r_{v,i}}{\sqrt{\sum_{i\in I_{u,v}}(r_{u,i}-\overline{r_{u}})^2}\sqrt{\sum_{i\in I_{u,v}}(r_{v,i}-\overline{r_{v}})^2}}
 $$
-$$$$
+$\overline{r_{u}}$ ---用户$u$的平均评分
+$\overline{r_{v}}$ ---用户$v$的平均评分
 ### 4.3 Person相似度
 ### 4.4 jaccard相似度
