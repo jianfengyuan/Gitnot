@@ -45,5 +45,6 @@ sim_{cos}(u,v)= \frac{\sum_{i\in I_{u,v}}(r_{u,i}-\overline{r_{u}})(r_{v,i}-\ove
 $$
 $\overline{r_{u}}$ ---用户$u$的平均评分
 $\overline{r_{v}}$ ---用户$v$的平均评分
+修正余弦相似度通过减去均值来提升对评分数值的敏感程度，
 ### 4.3 Person相似度
 ### 4.4 jaccard相似度
