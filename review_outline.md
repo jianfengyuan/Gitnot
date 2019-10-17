@@ -6,10 +6,10 @@
 - [ ] 聚类
 
 优化算法
-- [ ] SGD
-- [ ] RMSProp
-- [ ] Momentum
-- [ ] Aadm
+- [x] SGD
+- [x] RMSProp
+- [x] Momentum
+- [x] Aadm
 
 深度学习算法
 - [ ] Back propogation
