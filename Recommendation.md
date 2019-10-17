@@ -34,7 +34,7 @@
 ## 4. 相似度度量方法
 ### 4.1 余弦相似度
 $$
-sim_{cos}= \frac{\sum_{i\in I_{u,v}}r_{u,i}r_{v,i}}{\sqrt{\sum}}
+sim_{cos}= \frac{\sum_{i\in I_{u,v}}r_{u,i}r_{v,i}}{\sqrt{\sum_{i\in I_{u,v}}r_{u,i}^2}}
 $$
 ### 4.2 修正余弦相似度
 ### 4.3 Person相似度
