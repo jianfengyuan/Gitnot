@@ -230,7 +230,7 @@ SGD 的缺点在于收敛速度慢，可能在鞍点处震荡。并且，如何�
 ### 2. RMS Prop
 实现学习率的自动调节，根据上一个时序的二阶动量来改变学习率的步长，win_size = 2 
 $\theta_1 :=\theta_0-\frac{\eta}{v_0}m^0 \quad v_0=g_0$
-$\theta_2 :=\theta_1-\frac{\eta}{v_1}g^1 \quad \sigma_1=\sqrt{\alpha v_0+(1-\alpha)g_1^2}+\epsilon$
-$\theta_3 :=\theta_2-\frac{\eta}{v_2}g^0 \quad  \sigma_2=\sqrt{\alpha v_1+(1-\alpha)g_2^2}+\epsilon$
+$\theta_2 :=\theta_1-\frac{\eta}{v_1}g^1 \quad v_1=\sqrt{\alpha v_0+(1-\alpha)g_1^2}+\epsilon$
+$\theta_3 :=\theta_2-\frac{\eta}{v_2}g^0 \quad  v_2=\sqrt{\alpha v_1+(1-\alpha)g_2^2}+\epsilon$
 ### 3. Momentum
 ### 4. Adam
