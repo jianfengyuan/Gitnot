@@ -241,4 +241,6 @@ $\theta_{t+1}:=\theta_t - m_t$
 $\gamma$ --- 决定动量的影响
 ### 4. Adam
 Adam = RMSProp + Momentum
-$\beta1,\beta2$
+$\beta1$关于momentum的超参数,$\beta2$关于RMSProp的超参数
+momentum的计算
+
