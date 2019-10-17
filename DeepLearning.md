@@ -22,7 +22,7 @@ $$
 ## 3. RNN
 ## 4. LSTM
 ## 5. BN
-把每次的更新的mean和
+把每次的更新的mean和varience另外存一份为running_mean和running_var，用作test的时候用
 ![title](https://i.loli.net/2019/10/17/EIviD56BCK4Z9qM.png)
 ![title](https://i.loli.net/2019/10/17/MVrPFvS3I495cnB.png)
 ![title](https://i.loli.net/2019/10/17/y58zsQ1RDTjvqar.png)
