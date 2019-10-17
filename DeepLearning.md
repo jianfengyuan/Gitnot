@@ -1,5 +1,5 @@
 # 深度学习
-## 1. Back propagation
+## 1. Back propagation![title](https://i.loli.net/2019/10/17/FNzbMtVS7x6QdYj.png)
 ![title](https://i.loli.net/2019/10/17/cMwIxP3Hh71lTCv.png)
 目标：$\frac{\partial L(\theta)}{\partial w}$
 因为$\frac{\partial L(\theta)}{\partial w}=\sum_{n=1}^{N}\frac{\partial C^n(\theta)}{\partial w}$, 因此目标可以看做$\frac{\partial C}{\partial w}$
@@ -24,5 +24,5 @@ $$
 ## 5. BN
 ![title](https://i.loli.net/2019/10/17/EIviD56BCK4Z9qM.png)
 ![title](https://i.loli.net/2019/10/17/MVrPFvS3I495cnB.png)
-
+![title](https://i.loli.net/2019/10/17/y58zsQ1RDTjvqar.png)
 ![title](https://i.loli.net/2019/10/17/uNBeQd4SDzy7VjI.png)
