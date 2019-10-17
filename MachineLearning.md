@@ -224,7 +224,7 @@ $v_t = \psi(g1,g2,g3,...,g_t)$
 （3）更新模型参数$\theta_{t+1}:=\theta_t - \frac{1}{\sqrt{v_t+\epsilon}}m_t$
 其中$\epsilon$为平滑项，防止分母为0，通常取1e-8
 ### 1. SGD
-
+SGD没有动量概念，直接用一阶动量即梯度
 ### 2. RMS Prop
 ### 3. Momentum
 ### 4. Adam
