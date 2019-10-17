@@ -228,6 +228,6 @@ SGD没有动量概念，直接用一阶动量即梯度对参数进行更新
 $\theta_{t+1}:=\theta_t - \eta m_t$
 SGD 的缺点在于收敛速度慢，可能在鞍点处震荡。并且，如何合理的选择学习率是 SGD 的一大难点。
 ### 2. RMS Prop
-$w^1 :=w^0-$
+$w^1 :=w^0-\frac{\eta}{\sigma^0}g^0 $
 ### 3. Momentum
 ### 4. Adam
