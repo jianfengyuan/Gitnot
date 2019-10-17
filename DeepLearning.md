@@ -5,7 +5,8 @@
 因为$\frac{\partial L(\theta)}{\partial w}=\sum_{n=1}^{N}\frac{\partial C^n(\theta)}{\partial w}$, 因此目标可以看做$\frac{\partial C}{\partial w}$
 这里$\sum_{n=1}^{N}C^n(\theta)$就是指loss function
 根据链式法则
-$\frac{\partial C}{\partial w}=$\frac{\partial C}{\partial w}$$
+$\frac{\partial C}{\partial w}=\frac{\partial z}{\partial w}\frac{\partial C}{\partial z}$
+这里$$
 ## 2. CNN
 ## 3. RNN
 ## 4. LSTM
