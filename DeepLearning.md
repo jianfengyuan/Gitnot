@@ -24,4 +24,5 @@ $$
 ## 5. BN
 ![title](https://i.loli.net/2019/10/17/EIviD56BCK4Z9qM.png)
 ![title](https://i.loli.net/2019/10/17/MVrPFvS3I495cnB.png)
-![title](https://i.loli.net/2019/10/17/OBzxGF7tkCoL5Ay.png)
+
+![title](https://i.loli.net/2019/10/17/uNBeQd4SDzy7VjI.png)
