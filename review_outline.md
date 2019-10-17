@@ -32,7 +32,6 @@
 
 
 推荐算法
-- [ ] content base
-- [ ] user base
-- [ ] LMF 隐语义模型
+- [x] content base
+- [ ] 基于模型的
 - [ ] LDA 交替最小二乘
