@@ -232,7 +232,7 @@ $$
 Q(s,a) \leftarrow Q(s,a) + \alpha[r+\gamma max_{a'}Q(s',a')-Q(s,a)]
 $$
 ## 4.Sasa
-
+- [ ] TODO
 # 推荐算法
 ## 1. Content base
 ## 2. User base
@@ -248,7 +248,9 @@ $$
 
 # 计算机视觉（CV）
 ## RCNN
+- [ ] TODO
 ## SPP net
+- [ ] TODO
 ## Fast RCNN
 ## Faster RCNN
 ## YOLO v1
