@@ -240,3 +240,4 @@ $\theta_{t+1}:=\theta_t - m_t$
 $\gamma$ --- 决定动量的影响
 ### 4. Adam
 Adam = RMSProp + Momentum
+$\beta1,\beta2$
