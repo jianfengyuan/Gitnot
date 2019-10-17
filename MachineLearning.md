@@ -233,7 +233,7 @@ $\theta_1 :=\theta_0-\frac{\eta}{v_0}m^0 \quad v_0=g_0$
 $\theta_2 :=\theta_1-\frac{\eta}{v_1}g^1 \quad v_1=\sqrt{\alpha v_0+(1-\alpha)g_1^2}+\epsilon$
 $\theta_3 :=\theta_2-\frac{\eta}{v_2}g^0 \quad  v_2=\sqrt{\alpha v_1+(1-\alpha)g_2^2}+\epsilon$
 $\alpha$ --- 表示对上一轮gradient的信任度
-$g_t^2$ --- 表示二次动量
+$g_t^2$ --- 表示二阶导
 ### 3. Momentum
 引入动量加速SGD在正确的方向下降并且抑制振荡
 $m_t = \gamma m_{t-1} + \eta g_t$
@@ -244,4 +244,4 @@ Adam = RMSProp + Momentum
 $\beta_1$关于momentum的超参数,$\beta_2$关于RMSProp的超参数
 momentum部分的计算
 $m_t=\beta_1 m_{t-1} + (1-\beta_1) g_t$
-$v_t = \beta_2v_{t-1}+(1-\beta_2)v_t$
+$v_t = \beta_2v_{t-1}+(1-\beta_2)g_t^2$
