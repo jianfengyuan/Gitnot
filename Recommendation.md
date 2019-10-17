@@ -41,10 +41,13 @@ $r_{u,i}$和$r_{v,i}$---分别表示用户$u$和用户$v$的对项目i的评分
 余弦相似度通过两个向量的夹角余弦值来度量相似度，两个向量的夹角越小，其夹角的余弦值越大，则余弦相似度越高。这种方式对评分数值不敏感，尽管两个用户的评分差很大，但是相似度也很大。余弦相似度过度关注向量之间的夹角而忽视了向量的长度（共同评分的数量），而且过度依赖两个用户的共同评分
 ### 4.2 修正余弦相似度
 $$
-sim_{cos}(u,v)= \frac{\sum_{i\in I_{u,v}}(r_{u,i}-\overline{r_{u}})(r_{v,i}-\overline{r_{v}})}{\sqrt{\sum_{i\in I_{u}}(r_{u,i}-\overline{r_{u}})^2}\sqrt{\sum_{i\in I_{u,v}}(r_{v,i}-\overline{r_{v}})^2}}
+sim_{cos}(u,v)= \frac{\sum_{i\in I_{u,v}}(r_{u,i}-\overline{r_{u}})(r_{v,i}-\overline{r_{v}})}{\sqrt{\sum_{i\in I_{u}}(r_{u,i}-\overline{r_{u}})^2}\sqrt{\sum_{i\in I_{v}}(r_{v,i}-\overline{r_{v}})^2}}
 $$
 $\overline{r_{u}}$ ---用户$u$的平均评分
 $\overline{r_{v}}$ ---用户$v$的平均评分
 修正余弦相似度通过减去均值来提升对评分数值的敏感程度，但无法辨认其正负相关性
 ### 4.3 Person相似度
+$$
+sim_{cos}(u,v)= \frac{\sum_{i\in I_{u,v}}(r_{u,i}-\overline{r_{u}})(r_{v,i}-\overline{r_{v}})}{\sqrt{\sum_{i\in I_{u,v}}(r_{u,i}-\overline{r_{u}})^2}\sqrt{\sum_{i\in I_{u,v}}(r_{v,i}-\overline{r_{v}})^2}}
+$$
 ### 4.4 jaccard相似度
