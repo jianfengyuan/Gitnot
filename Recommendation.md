@@ -46,8 +46,9 @@ $$
 $\overline{r_{u}}$ ---用户$u$的平均评分
 $\overline{r_{v}}$ ---用户$v$的平均评分
 修正余弦相似度通过减去均值来提升对评分数值的敏感程度，但无法辨认其正负相关性
-### 4.3 Person相似度
+### 4.3 Pearson相似度
 $$
 sim_{cos}(u,v)= \frac{\sum_{i\in I_{u,v}}(r_{u,i}-\overline{r_{u}})(r_{v,i}-\overline{r_{v}})}{\sqrt{\sum_{i\in I_{u,v}}(r_{u,i}-\overline{r_{u}})^2}\sqrt{\sum_{i\in I_{u,v}}(r_{v,i}-\overline{r_{v}})^2}}
 $$
+Pearson相关系数是衡量两个数据集合之间的线性关系，
 ### 4.4 jaccard相似度
