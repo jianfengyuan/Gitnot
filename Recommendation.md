@@ -52,3 +52,6 @@ sim_{cos}(u,v)= \frac{\sum_{i\in I_{u,v}}(r_{u,i}-\overline{r_{u}})(r_{v,i}-\ove
 $$
 Pearson相关系数是衡量两个数据集合之间的线性关系，考虑用户评分的偏差，忽略了用户共同评分的项目数。
 ### 4.4 jaccard相似度
+$$
+
+$$
