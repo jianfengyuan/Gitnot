@@ -247,5 +247,6 @@ $m_t=\beta_1 m_{t-1} + (1-\beta_1) g_t$
 RMSProp部分计算
 $v_t = \beta_2v_{t-1}+(1-\beta_2)g_t^2$
 对momentum部分进行修正
-$$
+$\hat m_t=\frac{m_t}{1-\beta_1^t}$
+对RMSProp部分
 $\theta_t:=$
