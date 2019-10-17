@@ -235,6 +235,7 @@ $\theta_3 :=\theta_2-\frac{\eta}{v_2}g^0 \quad  v_2=\sqrt{\alpha v_1+(1-\alpha)g
 ### 3. Momentum
 引入动量加速SGD在正确的方向下降并且抑制振荡
 $m_t = \gamma m_{t-1} + \eta g_t$
-$\theta_{t+1}:=\theta_t - \eta m_t$
+$\theta_{t+1}:=\theta_t - m_t$
+$\gamma$决定动量的
 ### 4. Adam
 Adam = RMSProp + Momentum
