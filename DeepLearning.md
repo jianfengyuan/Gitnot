@@ -7,7 +7,8 @@
 根据链式法则
 $\frac{\partial C}{\partial w}=\frac{\partial z}{\partial w}\frac{\partial C}{\partial z}$
 这里$\frac{\partial z}{\partial w}$称为forward pass项，偏导结果就是输入值
-$\frac{\partial C}{\partial z}$称为backward pass项
+$\frac{\partial C}{\partial z}$称为backward pass项，从最后一层结果望前推倒
+以图片中的neural network为例子，
 ## 2. CNN
 ## 3. RNN
 ## 4. LSTM
