@@ -214,27 +214,8 @@ g_k(x)  \le 0 \ k = 1,2,3 ...l \quad (6)
 $$
 (1)是对拉格朗日函数取极值时候带来的一个必要条件，(2)是拉格朗日系数约束（同等式情况），(3)是不等式约束情况，(4)是互补松弛条件，(5)、(6)是原约束条件。
 
-
-
-
-
-
-# 计算机视觉（CV）
-## RCNN
-- [ ] TODO
-## SPP net
-- [ ] TODO
-## Fast RCNN
-- [ ] TODO
-## Faster RCNN
-- [ ] TODO
-## YOLO v1
-- [ ] TODO
-## YOLO v2
-- [ ] TODO
-
-# 优化算法
-## 1. SGD
-## 2. RMS Prop
-## 3. Momentum
-## 4. Adam
+## 优化算法
+### 1. SGD
+### 2. RMS Prop
+### 3. Momentum
+### 4. Adam
