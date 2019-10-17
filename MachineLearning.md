@@ -233,5 +233,6 @@ $\theta_1 :=\theta_0-\frac{\eta}{v_0}m^0 \quad v_0=g_0$
 $\theta_2 :=\theta_1-\frac{\eta}{v_1}g^1 \quad v_1=\sqrt{\alpha v_0+(1-\alpha)g_1^2}+\epsilon$
 $\theta_3 :=\theta_2-\frac{\eta}{v_2}g^0 \quad  v_2=\sqrt{\alpha v_1+(1-\alpha)g_2^2}+\epsilon$
 ### 3. Momentum
-引入动量加速SGD在正确的方向下降
+引入动量加速SGD在正确的方向下降并且抑制振荡
 ### 4. Adam
+Adam = RMSProp + Momentum
