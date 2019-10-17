@@ -13,7 +13,7 @@ $\frac{\partial C}{\partial z}$称为backward pass项，从最后一层结果望
 $$
 \frac{\partial L}{\partial z_5}=\frac{\partial L}{\partial y_1}\frac{\partial y_1}{\partial z_5}
 $$
-其中$L=\frac{1}{2}(\hat y_1-y_1)^2 + \frac{1}{2}(\hat y_1-y_1)^2$
+其中$L=\frac{1}{2}(\hat y_1-y_1)^2 + \frac{1}{2}(\hat y_2-y_2)^2$
 
 ## 2. CNN
 ## 3. RNN
