@@ -12,10 +12,10 @@
 - [x] Aadm
 
 深度学习算法
-- [ ] Back propogation
+- [x] Back propogation
 - [ ] CNN模型
 - [ ] RNN模型
-- [ ] BN
+- [x] BN
 
 计算机视觉
 - [ ] RCNN
