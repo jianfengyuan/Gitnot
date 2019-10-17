@@ -250,4 +250,4 @@ $v_t = \beta_2v_{t-1}+(1-\beta_2)g_t^2$
 $\hat m_t=\frac{m_t}{1-\beta_1^t}$
 对RMSProp部分进行修正
 $\hat v_t=\frac{v_t}{1-\beta_2^t}$
-$\theta_t:=\theta_{t-1}-\eta \frac{1}{\sqrt{\hat }}$
+$\theta_t:=\theta_{t-1}-\eta \frac{1}{\sqrt{\hat v_t}+\epsilon}\hat m_t$
