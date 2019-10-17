@@ -229,8 +229,8 @@ $\theta_{t+1}:=\theta_t - \eta m_t$
 SGD 的缺点在于收敛速度慢，可能在鞍点处震荡。并且，如何合理的选择学习率是 SGD 的一大难点。
 ### 2. RMS Prop
 实现学习率的自动调节，根据上一个时序的二阶动量来改变学习率的步长，win_size = 2 
-$\theta^1 :=\theta^0-\frac{\eta}{\sigma^0}g^0 \quad \sigma^0=g^0$
-$\theta^2 :=\theta^1-\frac{\eta}{\sigma^1}g^1 \quad \sigma^1=\sqrt{\alpha\sigma^0+(1-\alpha)(g^1)^2}+\epsilon$
+$\theta^1 :=\theta^0-\frac{\eta}{v^0}m^0 \quad v^0=g^0$
+$\theta^2 :=\theta^1-\frac{\eta}{\sigma^1}g^1 \quad \sigma^1=\sqrt{\alpha\sigma^0+(1-\alpha)(g_1)^2}+\epsilon$
 $\theta^3 :=\theta^2-\frac{\eta}{\sigma^2}g^0 \quad  \sigma^2=\sqrt{\alpha\sigma^1+(1-\alpha)(g^2)^2}+\epsilon$
 ### 3. Momentum
 ### 4. Adam
