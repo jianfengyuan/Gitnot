@@ -56,5 +56,6 @@ Pearson相关系数与调整余弦相似度十分相似，在分母中有不同�
 $$
 sim_{Jac}(u,v)=\vert \frac{I_{u} \cap I_{v}}{I_{u} \cup I_{v}}\vert
 $$
-$I_{v}$---用户$v$
-$I_{u}$
+$I_{v}$---用户$v$评分的项目
+$I_{u}$---用户$u$评分的项目
+Jaccard相似度与Pearson相关系数不同的是，Jaccard相似度仅考虑了两个用户的
