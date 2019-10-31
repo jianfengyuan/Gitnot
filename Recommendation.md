@@ -64,5 +64,6 @@ Jaccard相似度与Pearson相关系数不同的是，Jaccard相似度仅考虑�
 - [ ] TODO
 
 ## 5. offline movies recommendation system
-### 5.1 
+### 5.1 statistic recommendation
+
 
