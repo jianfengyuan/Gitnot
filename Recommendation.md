@@ -70,4 +70,6 @@ Jaccard相似度与Pearson相关系数不同的是，Jaccard相似度仅考虑�
 3. 优质电影推荐(统计电影历史均分)
 4. 各类型电影top 10 推荐()
 ### 5.2 offline recommendation
-1. 训练隐语义模型, 
+1. 构造用户评分矩阵
+2. 训练隐语义模型(LFM)
+3. 预测
