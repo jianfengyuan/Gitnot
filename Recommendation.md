@@ -65,5 +65,8 @@ Jaccard相似度与Pearson相关系数不同的是，Jaccard相似度仅考虑�
 
 ## 5. offline movies recommendation system
 ### 5.1 statistic recommendation
-
-
+1. 历史热门电影推荐
+2. 最近热门电影推荐
+3. 优质电影推荐
+4. 各类型电影top 10 推荐
+### 5.2 
