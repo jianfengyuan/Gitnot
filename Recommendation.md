@@ -74,4 +74,4 @@ Jaccard相似度与Pearson相关系数不同的是，Jaccard相似度仅考虑�
 2. 训练隐语义模型(LFM)
 3. 预测用户对电影的评分
 ### 5.3 content_base recommendation
-1. 基于隐语义模型的副产物,movie的隐语义矩阵,对用户进行
+基于隐语义模型的副产物,movie的隐语义矩阵,对用户进行content_base的电影推荐
