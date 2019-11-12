@@ -7,4 +7,6 @@ astronomy 天文学
 astronaut 宇航员
 astronomer 天文学家
 cosmos 宇宙(偏向有序)
-chaos 混沌(相对于cosmos,偏向)
+chaos 混沌(相对于cosmos,偏向无序)
+orbit 轨道
+planet 
