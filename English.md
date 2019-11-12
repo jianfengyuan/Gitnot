@@ -6,5 +6,5 @@ astron- 天文学科
 astronomy 天文学
 astronaut 宇航员
 astronomer 天文学家
-cosmos 宇宙
-chaos 混沌
+cosmos 宇宙(偏向有序)
+chaos 混沌(相对于cosmos,偏向)
