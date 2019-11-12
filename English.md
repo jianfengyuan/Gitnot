@@ -20,3 +20,4 @@ heliocentric 以太阳为中心的
 geocentric 以地球为中心的
 supernova 超新星
 hypernova 超超新星
+object 天体
