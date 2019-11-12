@@ -3,6 +3,7 @@
 astron- 天文学科 
 -nomy 法则
 solar- 太阳的
+helio- 太阳的
 相关词:
 astronomy 天文学
 astronaut 宇航员
@@ -14,3 +15,5 @@ planet 行星
 star 恒星
 solar 太阳的
 lunar 月亮的
+heliocentric 以太阳为中心的
+geocentric 
