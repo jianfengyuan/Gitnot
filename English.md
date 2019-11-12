@@ -1,2 +1,4 @@
 天文学
-astronary
+词根: astron-
+astronomy 天文学
+astronaut 宇航员
